@@ -104,6 +104,8 @@
 			<p>[Call disconnected]</p>
 			<p>All stories completed!</p>
 		</div>
+	{:else if callState === 'waiting'}
+		<div></div>
 	{:else}
 		<div class="loading">Loading story...</div>
 	{/if}

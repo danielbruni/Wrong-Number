@@ -1,4 +1,6 @@
 <script lang="ts">
+	import PhoneGrid from './PhoneGrid.svelte';
+
 	let { children } = $props();
 </script>
 
@@ -17,7 +19,8 @@
 	<div
 		class="h-full w-full overflow-hidden rounded-[2rem] bg-gradient-to-bl from-indigo-500 via-purple-500 to-pink-500"
 	>
-		<div class="flex h-full w-full items-center justify-center p-2">
+		<div class="relative flex h-full w-full items-center justify-center p-2">
+			<PhoneGrid />
 			{#if children}
 				{@render children()}
 			{/if}

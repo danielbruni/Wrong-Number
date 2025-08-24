@@ -8,7 +8,7 @@
 </script>
 
 <div
-	class="ring-screen m-4 flex flex-col items-center justify-center rounded-3xl p-8 text-center text-white"
+	class="ring-screen absolute z-50 m-4 flex flex-col items-center justify-center rounded-3xl p-8 text-center text-white"
 >
 	<p>📞 Incoming call...</p>
 	<div class="ring-buttons flex flex-col gap-6 lg:flex-row">
