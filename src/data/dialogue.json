@@ -1,0 +1,31 @@
+[
+	{
+		"line": "You got the tools?",
+		"choices": [
+			{ "text": "Yes, I'm outside.", "next": 1 },
+			{ "text": "Tools for what?", "next": 2 },
+			{ "text": "Wrong number.", "next": -1 }
+		]
+	},
+	{
+		"line": "Good. She'll be home any minute. Don't let her see you.",
+		"choices": [
+			{ "text": "Got it.", "next": -1 },
+			{ "text": "Wait — who is she?", "next": 3 }
+		]
+	},
+	{
+		"line": "Don't play dumb. We planned this.",
+		"choices": [
+			{ "text": "Refresh my memory.", "next": 1 },
+			{ "text": "Click.", "next": -1 }
+		]
+	},
+	{
+		"line": "You're not him. Who is this? How did you get this number!?",
+		"choices": [
+			{ "text": "...Hello?", "next": -1 },
+			{ "text": "Sorry, wrong number.", "next": -1 }
+		]
+	}
+]
