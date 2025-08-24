@@ -40,6 +40,21 @@ Explore a series of interconnected stories, from bizarre office drama to liminal
 
 ---
 
+## Possible New Features
+- **Phone Logs**: Keep a record of previous calls, transcripts, and player choices.  
+- **Call Waiting**: Occasionally two calls overlap, forcing you to pick which one to answer.  
+- **Missed Calls & Voicemails**: Some stories only progress if you let a call go unanswered.  
+- **Misdials**: Sometimes you can dial back numbers yourself, discovering hidden content.  
+- **Environmental Sounds**: Footsteps, train ambience, creaking floors to hint at context.  
+- **Message Glitches**: Text sometimes scrambles or repeats to hint at reality bending.  
+- **Evolving Mystery**: A master “conspiracy board” slowly fills out as more calls are completed.  
+- **Branch Persistence**: Choices from one story influence later calls (e.g., if you fed Greg’s stapler delusion, it shows up in Project Reverie).  
+- **Cross-Story Clues**: Information gained in one call can unlock hidden dialogue in another.  
+- **Multiple Endings**: Each story can conclude in several ways, but also contribute to a larger “meta-ending.”  
+- **Caller Recognition**: Some NPCs call back later, remembering how you treated them.  
+
+---
+
 ## Contribution
 
 Feel free to:  
