@@ -1,0 +1,38 @@
+[
+	{
+		"line": "Hi! This is Cheryl from HR. I'm calling about Greg. Have you seen him talking to the stapler again?",
+		"choices": [
+			{ "text": "Yes, very concerning.", "next": 1 },
+			{ "text": "Uh… wrong number?", "next": -1 },
+			{ "text": "Tell me more about Greg.", "next": 2 }
+		]
+	},
+	{
+		"line": "I knew you'd understand! Yesterday, he lectured the coffee machine about its feelings. It's affecting office morale.",
+		"choices": [
+			{ "text": "Document it in his file.", "next": 3 },
+			{ "text": "Encourage him — maybe the stapler needs therapy.", "next": 4 }
+		]
+	},
+	{
+		"line": "Oh, you're serious? Good! Sharon thinks the vending machine is haunted and left offerings of granola bars. Can you believe it?",
+		"choices": [
+			{ "text": "Investigate the haunting.", "next": 4 },
+			{ "text": "Warn her about ghost staplers.", "next": 3 }
+		]
+	},
+	{
+		"line": "The office is spiraling. Greg just started a meditation circle for inanimate objects. Sharon is now vice-priestess of the vending shrine.",
+		"choices": [
+			{ "text": "Join the cult to report back.", "next": -1 },
+			{ "text": "Try to shut it down.", "next": -1 }
+		]
+	},
+	{
+		"line": "Chaos reigns! Greg now claims the stapler revealed a secret project called 'Reverie.' Should I tell everyone?",
+		"choices": [
+			{ "text": "Yes, start Project Reverie.", "next": -1 },
+			{ "text": "No, contain the madness.", "next": -1 }
+		]
+	}
+]

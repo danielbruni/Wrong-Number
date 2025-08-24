@@ -1,0 +1,38 @@
+[
+	{
+		"line": "Hello… are you there? The train… I don’t know where it’s going. You said to call if I got scared.",
+		"choices": [
+			{ "text": "I’m here. Take a deep breath.", "next": 1 },
+			{ "text": "Wrong number?", "next": -1 },
+			{ "text": "Where exactly are you?", "next": 2 }
+		]
+	},
+	{
+		"line": "Thank you… I remember pieces. A hospital… someone named Anna. I… I can’t see clearly.",
+		"choices": [
+			{ "text": "Try to recall more.", "next": 3 },
+			{ "text": "It’s okay, I’ll stay with you.", "next": 4 }
+		]
+	},
+	{
+		"line": "The windows… I think we’re moving through fog. It’s empty… yet crowded in my mind.",
+		"choices": [
+			{ "text": "Stay calm and describe surroundings.", "next": 4 },
+			{ "text": "Encourage him to find Anna.", "next": 3 }
+		]
+	},
+	{
+		"line": "I see her… or maybe I don’t. Was it a hospital bed? I feel… lost. Was she… gone?",
+		"choices": [
+			{ "text": "Help him remember gently.", "next": 4 },
+			{ "text": "Push him to confront the truth.", "next": -1 }
+		]
+	},
+	{
+		"line": "I… I think I understand now. Thank you. It’s like… I was waiting for someone to help me see again.",
+		"choices": [
+			{ "text": "You did well, you remembered.", "next": -1 },
+			{ "text": "Hold on, I’m not done with you yet.", "next": -1 }
+		]
+	}
+]

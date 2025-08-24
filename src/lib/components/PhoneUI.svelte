@@ -1,5 +1,5 @@
 <script lang="ts">
-	import dialogue from '../../data/dialogue.json';
+	import dialogue from '../../data/stories/job.json';
 	import { animateTypewriting } from '../attachment/animeTypewriting';
 
 	let current = $state(0);

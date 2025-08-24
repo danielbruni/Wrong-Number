@@ -1,0 +1,5 @@
+[
+	{ "id": "job", "title": "The Job", "file": "stories/job.json" },
+	{ "id": "cheryl", "title": "Cheryl from HR", "file": "stories/cheryl.json" },
+	{ "id": "midnight-train", "title": "Midnight Train", "file": "stories/midnight-train.json" }
+]
