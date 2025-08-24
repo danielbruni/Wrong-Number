@@ -7,5 +7,11 @@
 		"title": "Project Reverie",
 		"file": "stories/project-reverie.json",
 		"requires": ["cheryl"]
+	},
+	{
+		"id": "the-office",
+		"title": "The Office That Wasn’t",
+		"file": "stories/office.json",
+		"requires": ["cheryl", "project-reverie"]
 	}
 ]

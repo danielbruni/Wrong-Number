@@ -23,7 +23,7 @@ export const animateTypewriting: Attachment = (element) => {
 		if (charIndex < fullText.length) {
 			currentText += fullText[charIndex++];
 			updateInnerHTML(true);
-			timeout = setTimeout(typeEffect, fullText[charIndex - 1] === ' ' ? 50 : 75);
+			timeout = setTimeout(typeEffect, fullText[charIndex - 1] === ' ' ? 25 : 50);
 		} else {
 			updateInnerHTML(false);
 		}

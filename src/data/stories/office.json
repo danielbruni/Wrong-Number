@@ -1,0 +1,46 @@
+[
+	{
+		"line": "Hello… you said you’re calling about the office? Which office, exactly?",
+		"choices": [
+			{ "text": "The one from Project Reverie?", "next": 1 },
+			{ "text": "Wait… I think I imagined it.", "next": 2 },
+			{ "text": "Wrong number… again?", "next": -1 }
+		]
+	},
+	{
+		"line": "'Yes,' the voice says, firm. 'You were there. Everything—Greg, the stapler, Cheryl… it all happened. Or will happen.'",
+		"choices": [
+			{ "text": "Describe the office from memory.", "next": 3 },
+			{ "text": "Deny it ever existed.", "next": 4 },
+			{ "text": "Ask if I’m dreaming.", "next": 5 }
+		]
+	},
+	{
+		"line": "You recount the breakroom, the shrine, the meditation circle… and the caller seems pleased. 'Good. Reality needs witnesses.'",
+		"choices": [
+			{ "text": "Accept this new responsibility.", "next": -1 },
+			{ "text": "Ask what happens next.", "next": 5 }
+		]
+	},
+	{
+		"line": "The caller laughs softly. 'Denying is part of it. But you know. Deep down, you know.'",
+		"choices": [
+			{ "text": "Embrace the knowledge.", "next": -1 },
+			{ "text": "Refuse to believe.", "next": 5 }
+		]
+	},
+	{
+		"line": "'You’re not sure? Excellent. That uncertainty is what drives the project.' A faint hum vibrates through the line.",
+		"choices": [
+			{ "text": "Ask to enter the office again.", "next": -1 },
+			{ "text": "Decide to investigate other realities.", "next": -1 }
+		]
+	},
+	{
+		"line": "The voice whispers: 'Project Reverie is everywhere and nowhere. The office is only the beginning.' Click. Silence.",
+		"choices": [
+			{ "text": "Sit with the mystery.", "next": -1 },
+			{ "text": "Try calling back to learn more.", "next": -1 }
+		]
+	}
+]
