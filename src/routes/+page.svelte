@@ -12,7 +12,7 @@
 	const storyList: StoryIndex[] = stories as StoryIndex[];
 
 	// Glob import all JSON story files
-	const storyModules = import.meta.glob('/src/data/stories/*.json');
+	const storyModules = import.meta.glob('/src/data/stories/**/*.json');
 
 	// Pick a random story on component mount
 	async function loadRandomStory() {

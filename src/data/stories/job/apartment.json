@@ -1,0 +1,45 @@
+[
+	{
+		"line": "Hello? Is someone there? I think… something’s in the apartment below. I hear whispers.",
+		"choices": [
+			{ "text": "What do you hear?", "next": 1 },
+			{ "text": "Wrong number.", "next": -1 },
+			{ "text": "Stay calm. Can you see anything?", "next": 2 }
+		]
+	},
+	{
+		"line": "Soft thumps… like someone pacing. Sometimes… I swear it’s a voice, calling names I don’t know.",
+		"choices": [
+			{ "text": "Could it be the same person from before?", "next": 3 },
+			{ "text": "Tell them to ignore it.", "next": 4 }
+		]
+	},
+	{
+		"line": "I can’t see, it’s all shadows. But I know she’s there… I can feel it.",
+		"choices": [
+			{ "text": "Offer to check it out yourself.", "next": 3 },
+			{ "text": "Advise them to leave the apartment.", "next": 4 }
+		]
+	},
+	{
+		"line": "You start connecting the dots. The locksmith, the tools, the address… and the crying child. It’s all linked.",
+		"choices": [
+			{ "text": "Investigate further.", "next": 5 },
+			{ "text": "Cut the line. Too dangerous.", "next": -1 }
+		]
+	},
+	{
+		"line": "They try to calm down, but the whispers get louder. Your words may be comforting… or may push them over the edge.",
+		"choices": [
+			{ "text": "Guide them carefully.", "next": -1 },
+			{ "text": "Encourage them to confront the whispers.", "next": 5 }
+		]
+	},
+	{
+		"line": "A sudden silence falls. Then… a single voice says, 'I’ve been waiting for you.' Click. The line disconnects.",
+		"choices": [
+			{ "text": "Call back immediately.", "next": -1 },
+			{ "text": "Write down everything you know.", "next": -1 }
+		]
+	}
+]
