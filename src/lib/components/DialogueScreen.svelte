@@ -19,7 +19,7 @@
 	}
 </script>
 
-<div class="flex h-full w-full flex-col justify-between rounded-2xl bg-black p-8">
+<div class="absolute z-50 flex h-full w-full flex-col justify-between rounded-2xl bg-black p-8">
 	{#if current >= 0}
 		{#key currentLine}
 			<p class="line" {@attach animateTypewriting}>
