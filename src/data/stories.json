@@ -13,5 +13,11 @@
 		"title": "The Office That Wasn’t",
 		"file": "stories/office.json",
 		"requires": ["cheryl", "project-reverie"]
+	},
+	{
+		"id": "the-Visitor",
+		"title": "The Visitor",
+		"file": "stories/visitor.json",
+		"requires": ["the-office"]
 	}
 ]

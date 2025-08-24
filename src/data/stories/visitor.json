@@ -1,0 +1,46 @@
+[
+	{
+		"line": "Hello… I don’t know how to explain this. The office… it’s unstable. You’re the only one who can help.",
+		"choices": [
+			{ "text": "Explain what you mean by 'unstable'.", "next": 1 },
+			{ "text": "Wrong number?", "next": -1 },
+			{ "text": "How do I help?", "next": 2 }
+		]
+	},
+	{
+		"line": "'Furniture floats, time loops, the stapler… it whispers.'",
+		"choices": [
+			{ "text": "Listen carefully to the stapler.", "next": 3 },
+			{ "text": "Try to stabilize the office.", "next": 4 },
+			{ "text": "Do nothing, let chaos happen.", "next": 5 }
+		]
+	},
+	{
+		"line": "You feel a strange vibration through the line, as if reality itself is humming. 'Yes… guide it carefully,' the voice says.",
+		"choices": [
+			{ "text": "Take control.", "next": 4 },
+			{ "text": "Step back, let it unfold.", "next": 5 }
+		]
+	},
+	{
+		"line": "The office shifts subtly—time stabilizes, objects align, coworkers act more normally. But something feels… off.",
+		"choices": [
+			{ "text": "Continue guiding.", "next": -1 },
+			{ "text": "Disconnect the call.", "next": -1 }
+		]
+	},
+	{
+		"line": "The office collapses inward, folding into itself. You hear the visitor whisper: 'Perhaps chaos is the answer.' Then silence.",
+		"choices": [
+			{ "text": "Sit in stunned silence.", "next": -1 },
+			{ "text": "Try calling back.", "next": -1 }
+		]
+	},
+	{
+		"line": "The office mutates into a strange hybrid reality. You realize… your apartment, the office, the calls—they’re all linked now.",
+		"choices": [
+			{ "text": "Embrace the new reality.", "next": -1 },
+			{ "text": "Look for a way to separate them.", "next": -1 }
+		]
+	}
+]
