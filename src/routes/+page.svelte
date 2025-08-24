@@ -39,6 +39,7 @@
 		const module = (await loader()) as { default: Line[] };
 		dialogue = module.default;
 		selectedStory = story.id;
+		callState = 'ringing';
 
 		console.log(`Story '${story.id}' loaded.`);
 	}
