@@ -1,7 +1,7 @@
 # 📞 Wrong Number: An Interactive Phone Mystery
 
 **Genre:** Interactive Fiction / Surreal Mystery / Comedy  
-**Platform:** Text-based, retro phone UI concept
+**Platform:** Text-based, phone UI concept
 
 ---
 
@@ -17,7 +17,7 @@ Explore a series of interconnected stories, from bizarre office drama to liminal
 
 - **Choice-driven gameplay** – Your decisions change how stories unfold.  
 - **Multiple genres and tones** – From comedy to suspense to bittersweet drama.  
-- **Retro UI concept** – Imagine old rotary phones, text prompts, and audio cues to build tension and humor.  
+- **Phone UI concept** – Imagine phone, text prompts, and audio cues to build tension and humor.  
 - **Interconnected stories** – Events from one story can influence another, revealing a larger mystery.
 
 ---
@@ -46,7 +46,7 @@ Feel free to:
 
 - Add new “wrong number” stories.  
 - Improve dialogue, branching paths, or narrative arcs.  
-- Implement a UI/UX prototype inspired by retro phones.
+- Implement a UI/UX prototype inspired by phones.
 
 ---
 
