@@ -1,6 +1,8 @@
 <script lang="ts">
-	import dialogue from '../../data/stories/job.json';
 	import { animateTypewriting } from '../attachment/animeTypewriting';
+	import type { Line } from '../types';
+
+	const { dialogue }: { dialogue: Line[] } = $props();
 
 	let current = $state(0);
 	let currentLine = $derived(dialogue[current].line);
