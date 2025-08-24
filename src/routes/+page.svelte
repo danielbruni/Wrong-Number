@@ -105,11 +105,11 @@
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		height: 100vh;
 		background: linear-gradient(to bottom, #1c1c1c, #121212);
 		color: #fff;
 		text-align: center;
 		animation: pulse 1.2s infinite;
+		padding: 4em;
 	}
 
 	.ring-screen p {

@@ -19,7 +19,7 @@
 	}
 </script>
 
-<div class="phone-ui">
+<div class="phone-ui lg:min-w-3xl">
 	<div class="screen">
 		{#if current >= 0}
 			{#key currentLine}
@@ -27,7 +27,7 @@
 					{currentLine}
 				</p>
 			{/key}
-			<div class="choices">
+			<div class="choices mt-8">
 				{#each dialogue[current].choices as choice}
 					<button onclick={() => choose(choice)}>{choice.text}</button>
 				{/each}
@@ -76,12 +76,6 @@
 	}
 	.choices button:hover {
 		background: rgba(106, 255, 106, 0.1);
-	}
-	.newstory {
-		padding: 3em;
-		cursor: pointer;
-		display: block;
-		border: 1px solid #6aff6a;
 	}
 	.end {
 		color: #f33;
