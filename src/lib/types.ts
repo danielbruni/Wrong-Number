@@ -13,3 +13,5 @@ export interface StoryIndex {
 	title: string;
 	file: string;
 }
+
+export type CallState = 'ringing' | 'inCall' | 'callEnded' | 'waiting';

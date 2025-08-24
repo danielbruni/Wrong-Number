@@ -2,7 +2,9 @@
 	import { animateTypewriting } from '../attachment/animeTypewriting';
 	import type { Line } from '../types';
 
-	const { dialogue }: { dialogue: Line[] } = $props();
+	type PropTypes = { dialogue: Line[]; onStoryComplete: () => void };
+
+	const { dialogue, onStoryComplete }: PropTypes = $props();
 
 	let current = $state(0);
 	let currentLine = $derived(dialogue[current].line);
@@ -10,6 +12,7 @@
 	function choose(option: { text?: string; next: any }) {
 		if (option.next === -1) {
 			current = -1;
+			onStoryComplete();
 		} else {
 			current = option.next;
 		}
@@ -30,7 +33,9 @@
 				{/each}
 			</div>
 		{:else}
-			<p class="end">[Call disconnected]</p>
+			<div>
+				<p class="end">[Call disconnected]</p>
+			</div>
 		{/if}
 		<div class="crt-overlay"></div>
 	</div>
@@ -71,6 +76,12 @@
 	}
 	.choices button:hover {
 		background: rgba(106, 255, 106, 0.1);
+	}
+	.newstory {
+		padding: 3em;
+		cursor: pointer;
+		display: block;
+		border: 1px solid #6aff6a;
 	}
 	.end {
 		color: #f33;
