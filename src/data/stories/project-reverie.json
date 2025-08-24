@@ -1,0 +1,46 @@
+[
+	{
+		"line": "Hello? This is… Cheryl? About Project Reverie?",
+		"choices": [
+			{ "text": "Yes, I’m Cheryl. What’s the status?", "next": 1 },
+			{ "text": "Wrong number… but what’s Project Reverie?", "next": 2 },
+			{ "text": "Cheryl’s busy. Can I help instead?", "next": 3 }
+		]
+	},
+	{
+		"line": "Excellent. You’ve been briefed on the earlier phase. We need… updates on Greg, the stapler, and any vending machine anomalies.",
+		"choices": [
+			{ "text": "Report Greg’s stapler meditation circle.", "next": 4 },
+			{ "text": "Confess I don’t know anything.", "next": 5 },
+			{ "text": "Tell them everyone has become office monks.", "next": 4 }
+		]
+	},
+	{
+		"line": "Ah, a curious one! We were hoping you’d take initiative. Project Reverie is… experimental. Some would say surreal.",
+		"choices": [
+			{ "text": "Ask for details.", "next": 4 },
+			{ "text": "Pretend I’m an HR expert.", "next": 5 }
+		]
+	},
+	{
+		"line": "They pause. 'Ah, so the office has… evolved as expected.' You realize… you’re now part of the project. Or were always part of it.",
+		"choices": [
+			{ "text": "Play along.", "next": -1 },
+			{ "text": "Ask if the office was real.", "next": -1 }
+		]
+	},
+	{
+		"line": "The caller sighs. 'Improvise, adapt, let the Reverie unfold.' There’s a faint beep. The line disconnects.",
+		"choices": [
+			{ "text": "Call Cheryl to debrief.", "next": -1 },
+			{ "text": "Look around… am I still in my apartment?", "next": -1 }
+		]
+	},
+	{
+		"line": "'No knowledge? That is… acceptable. The project often chooses its participants by accident.' There’s a long silence, then click.",
+		"choices": [
+			{ "text": "Sit in stunned silence.", "next": -1 },
+			{ "text": "Decide to investigate further.", "next": -1 }
+		]
+	}
+]

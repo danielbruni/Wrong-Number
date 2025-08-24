@@ -12,6 +12,7 @@ export interface StoryIndex {
 	id: string;
 	title: string;
 	file: string;
+	requires?: string[];
 }
 
 export type CallState = 'ringing' | 'inCall' | 'callEnded' | 'waiting';

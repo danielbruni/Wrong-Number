@@ -18,7 +18,18 @@
 	async function loadRandomStory() {
 		console.log('Load Random Story...');
 
-		const unfinished = storyList.filter((s) => !$finishedStories.includes(s.id));
+		const unfinished = storyList.filter((s) => {
+			// Skip if story already finished
+			if ($finishedStories.includes(s.id)) return false;
+
+			// Skip if it has dependencies that are not finished
+			if ('requires' in s && s.requires) {
+				return s.requires.every((req) => $finishedStories.includes(req));
+			}
+
+			return true;
+		});
+
 		if (unfinished.length === 0) {
 			selectedStory = null;
 			dialogue = null;
