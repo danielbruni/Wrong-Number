@@ -1,38 +1,55 @@
-# sv
+# 📞 Wrong Number: An Interactive Phone Mystery
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+**Genre:** Interactive Fiction / Surreal Mystery / Comedy  
+**Platform:** Text-based, retro phone UI concept
 
-## Creating a project
+---
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Overview
 
-```bash
-# create a new project in the current directory
-npx sv create
+*"Wrong Number"* is a narrative-driven game where you answer mysterious phone calls from strangers who mistake you for someone else. Each choice you make shapes how their story unfolds—sometimes with humor, sometimes with suspense, and sometimes, reality itself bends.
 
-# create a new project in my-app
-npx sv create my-app
-```
+Explore a series of interconnected stories, from bizarre office drama to liminal spaces on a midnight train, and uncover a mysterious project that may link them all: **Project Reverie**.
 
-## Developing
+---
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Features
 
-```bash
-npm run dev
+- **Choice-driven gameplay** – Your decisions change how stories unfold.  
+- **Multiple genres and tones** – From comedy to suspense to bittersweet drama.  
+- **Retro UI concept** – Imagine old rotary phones, text prompts, and audio cues to build tension and humor.  
+- **Interconnected stories** – Events from one story can influence another, revealing a larger mystery.
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+---
 
-## Building
+## How to Play
 
-To create a production version of your app:
+1. Answer a mysterious call.  
+2. Read the dialogue carefully.  
+3. Select from multiple response options.  
+4. Observe how your choices influence the caller, the story, and the larger narrative.  
+5. Explore different outcomes by replaying and making alternative choices.
 
-```bash
-npm run build
-```
+---
 
-You can preview the production build with `npm run preview`.
+## Concept / Design Notes
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+- The game is designed for **text-first storytelling** with optional audio cues (e.g., dial tone, click, footsteps).  
+- Each story is structured with **lines and choices** in JSON for easy implementation in interactive fiction engines.  
+- The overarching mystery threads through **Project Reverie**, connecting the seemingly unrelated calls into a surreal, multiversal narrative.
+
+---
+
+## Contribution
+
+Feel free to:  
+
+- Add new “wrong number” stories.  
+- Improve dialogue, branching paths, or narrative arcs.  
+- Implement a UI/UX prototype inspired by retro phones.
+
+---
+
+## License
+
+MIT License
